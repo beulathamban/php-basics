@@ -17,5 +17,9 @@ echo str_word_count($fruit) . "<br>"; // counts the number of words in the strin
 echo substr ($fruit, 6) . "<br>"; // extracts string from the 6th position strting from 0
 echo substr ($fruit, 6, 3) . "<br>"; // extracts  3 characters from the 6th position strting from 0
 echo substr ($fruit, -3,2) . "<br>"; //extracts 2 characters from the reverse order at position 3 
-
+echo $fruit[1], "<br>";
+echo strstr($fruit, "man")? "yes" :"no" , "<br>" ;
+echo str_replace("green","red",$fruit), "<br>";
+echo strtolower($fruit), "<br>";
+echo strtoupper($fruit), "<br>";
 ?>
